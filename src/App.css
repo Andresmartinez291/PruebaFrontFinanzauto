@@ -41,6 +41,23 @@
   color: #888;
 }
 
+/* color de fondo y letra del banner*/
+.banner {
+  background-color: #00796b; 
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+}
+
+/* tamaño y alineacion de la letra del banner*/
 .fuenteBanner {
-  font-size: x-large;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* tamaño y color del icono del banner*/
+.iconoBanner {
+  font-size: 36px;
+  color: white;
 }

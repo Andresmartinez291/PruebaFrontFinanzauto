@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Button, Container, Row, Col } from 'react-bootstrap'
 import Banner from './Banner'
+import ListaUsuarios from './ListaUsuarios'
 
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
         </Row>
 
       </Container>
+
+      <ListaUsuarios/>
 
 
     </>
